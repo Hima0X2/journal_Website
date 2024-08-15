@@ -1,0 +1,115 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+/* Overall gradient background for login block */
+.login-block {
+    background: #4A90E2;  /* Fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #50E3C2, #4A90E2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #50E3C2, #4A90E2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+
+/* Banner section styling */
+.banner-sec {
+    background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg) no-repeat left bottom;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0 10px 10px 0;
+    padding: 0;
+}
+
+/* Container for form and card */
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 15px 20px 0px rgba(0,0,0,0.1);
+}
+
+/* Carousel inner styling */
+.carousel-inner {
+    border-radius: 0 10px 10px 0;
+}
+
+/* Carousel caption positioning */
+.carousel-caption {
+    text-align: left;
+    left: 5%;
+}
+
+/* Login section styling */
+.login-sec {
+    padding: 50px 30px;
+    position: relative;
+}
+
+/* Copy text styling */
+.login-sec .copy-text {
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.login-sec .copy-text i {
+    color: #7ED321; /* Change icon color */
+}
+
+.login-sec .copy-text a {
+    color: #4A90E2; /* Change link color */
+}
+
+/* Header styling */
+.login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #4A90E2; /* Change header color */
+}
+
+.login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #7ED321; /* Change underline color */
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button styling */
+.btn-login {
+    background: #4A90E2; /* Change button background color */
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Banner text styling */
+.banner-text {
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+    padding-left: 20px;
+}
+
+.banner-text h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.banner-text h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #FFF; /* Underline color */
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.banner-text p {
+    color: #fff;
+}
